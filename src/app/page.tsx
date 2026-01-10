@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Image from "next/image";
 
 // 배경 이미지들
 const backgroundImages = [
@@ -9,53 +10,40 @@ const backgroundImages = [
   "/images/메인사진/메인_3.jpg",
 ];
 
-// 공지사항 카드 (실제 내용으로 교체하세요)
+// 공지사항 카드
 const notices = [
   {
-    title: "성탄절 예배 안내",
-    description: "12월 25일 성탄절 특별 예배가 있습니다. 모두 함께 참여해주세요!",
+    title: "1월 로마서 통독",
+    image: "/images/공지사진/공지사항_1번/1번_로마서.jpeg",
+    images: [
+      "/images/공지사진/공지사항_1번/1번_로마서.jpeg",
+      "/images/공지사진/공지사항_1번/2번_로마서.jpeg",
+    ],
+    description: "📖기적을 이루는 1월 성경통독🎀\n\n⏰돌아오는 주일, 로마서 성경통독 표를 나눠줍니다.\n\n- 5독, 10독, 20독, 30독 이상 챌린지에 함께 도전해요!💪",
     color: "bg-pink-100",
   },
   {
-    title: "겨울수련회 신청",
-    description: "1월 겨울수련회 신청을 받고 있습니다. 마감일을 확인해주세요.",
+    title: "공지사항 2",
+    image: "",
+    images: [],
+    description: "",
     color: "bg-blue-100",
   },
   {
-    title: "새친구 초대",
-    description: "친구를 초대하면 특별 달란트를 드려요! 많은 참여 부탁드립니다.",
+    title: "공지사항 3",
+    image: "",
+    images: [],
+    description: "",
     color: "bg-green-100",
-  },
-  {
-    title: "달란트 시장 오픈",
-    description: "이번 달 달란트 시장이 열립니다. 달란트를 모아오세요!",
-    color: "bg-yellow-100",
-  },
-  {
-    title: "부모님 간담회",
-    description: "다음 주 부모님 간담회가 예정되어 있습니다.",
-    color: "bg-purple-100",
-  },
-  {
-    title: "사진 업로드 완료",
-    description: "여름성경학교 사진이 갤러리에 업로드되었습니다.",
-    color: "bg-orange-100",
   },
 ];
 
+type Notice = typeof notices[0];
+
 export default function Home() {
-  const [currentIndex, setCurrentIndex] = useState(0);
   const [isOpen, setIsOpen] = useState(false);
   const [bgIndex, setBgIndex] = useState(0);
-  const totalPages = Math.ceil(notices.length / 3);
-
-  // 공지사항 자동 전환
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentIndex((prev) => (prev + 1) % totalPages);
-    }, 10000);
-    return () => clearInterval(interval);
-  }, [totalPages]);
+  const [selectedNotice, setSelectedNotice] = useState<Notice | null>(null);
 
   // 배경 이미지 자동 전환 (5초 간격)
   useEffect(() => {
@@ -64,8 +52,6 @@ export default function Home() {
     }, 5000);
     return () => clearInterval(interval);
   }, []);
-
-  const currentNotices = notices.slice(currentIndex * 3, currentIndex * 3 + 3);
 
   return (
     <div className="relative h-screen overflow-hidden">
@@ -116,42 +102,90 @@ export default function Home() {
         <div className="px-6 pb-10 overflow-auto" style={{ height: "calc(100% - 60px)" }}>
           <div className="max-w-5xl mx-auto">
             <div className="grid md:grid-cols-3 gap-4">
-              {currentNotices.map((notice, index) => (
+              {notices.map((notice, index) => (
                 <div
-                  key={`${currentIndex}-${index}`}
-                  className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all animate-fade-in cursor-pointer group"
+                  key={index}
+                  className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all cursor-pointer group"
+                  onClick={() => setSelectedNotice(notice)}
                 >
-                  <div className={`h-28 ${notice.color}`} />
+                  {notice.image ? (
+                    <div className="h-28 relative">
+                      <Image
+                        src={notice.image}
+                        alt={notice.title}
+                        fill
+                        className="object-cover"
+                      />
+                    </div>
+                  ) : (
+                    <div className={`h-28 ${notice.color}`} />
+                  )}
                   <div className="p-4">
-                    <h3 className="font-bold text-neutral-800 mb-1">{notice.title}</h3>
-                    <p className="text-sm text-neutral-500 leading-relaxed line-clamp-2">
-                      {notice.description}
-                    </p>
-                    <p className="text-xs text-neutral-400 mt-3 group-hover:text-neutral-600 transition-colors">
-                      Read More →
-                    </p>
+                    <h3 className="font-bold text-neutral-800">{notice.title}</h3>
                   </div>
                 </div>
-              ))}
-            </div>
-
-            {/* Pagination Dots */}
-            <div className="flex justify-center gap-2 mt-6">
-              {Array.from({ length: totalPages }).map((_, index) => (
-                <button
-                  key={index}
-                  onClick={() => setCurrentIndex(index)}
-                  className={`w-2 h-2 rounded-full transition-all ${
-                    index === currentIndex
-                      ? "bg-neutral-800 w-4"
-                      : "bg-neutral-300 hover:bg-neutral-400"
-                  }`}
-                />
               ))}
             </div>
           </div>
         </div>
       </div>
+
+      {/* 공지사항 상세 모달 */}
+      {selectedNotice && (
+        <div
+          className="fixed inset-0 z-50 bg-black/70 flex items-center justify-center p-4"
+          onClick={() => setSelectedNotice(null)}
+        >
+          <div
+            className="bg-white rounded-3xl max-w-2xl w-full max-h-[85vh] overflow-hidden"
+            onClick={(e) => e.stopPropagation()}
+          >
+            {/* 모달 헤더 */}
+            <div className="flex items-center justify-between p-4 border-b">
+              <h2 className="font-bold text-lg">{selectedNotice.title}</h2>
+              <button
+                onClick={() => setSelectedNotice(null)}
+                className="w-8 h-8 flex items-center justify-center rounded-full hover:bg-neutral-100 transition-colors"
+              >
+                <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+            </div>
+
+            {/* 모달 내용 - 이미지들 */}
+            <div className="p-4 overflow-auto" style={{ maxHeight: "calc(85vh - 60px)" }}>
+              {selectedNotice.images.length > 0 ? (
+                <div className="grid grid-cols-2 gap-3">
+                  {selectedNotice.images.map((img, idx) => (
+                    <div key={idx} className="relative aspect-[4/5] rounded-xl overflow-hidden">
+                      <Image
+                        src={img}
+                        alt={`${selectedNotice.title} ${idx + 1}`}
+                        fill
+                        className="object-cover"
+                      />
+                    </div>
+                  ))}
+                </div>
+              ) : (
+                <div className={`h-48 rounded-2xl ${selectedNotice.color} flex items-center justify-center`}>
+                  <p className="text-neutral-500">이미지가 없습니다</p>
+                </div>
+              )}
+
+              {/* 설명 글 */}
+              {selectedNotice.description && (
+                <div className="mt-4 p-4 bg-neutral-50 rounded-xl">
+                  <p className="text-neutral-700 whitespace-pre-line leading-relaxed">
+                    {selectedNotice.description}
+                  </p>
+                </div>
+              )}
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

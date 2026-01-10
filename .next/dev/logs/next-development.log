@@ -169,3 +169,49 @@ Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
 [00:26:05.442] Server  LOG     ✓ Compiled in 34ms
 [00:26:05.693] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
 [00:26:05.694] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:26:50.767] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/오래참음반.jpg" "received" null
+[00:26:50.770] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/희락반.jpg" "received" null
+[00:26:50.799] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:26:50.813] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/양선반.jpg" "received" null
+[00:26:50.828] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/온유반.jpg" "received" null
+[00:26:50.828] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/자비반.jpg" "received" null
+[00:26:50.844] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/충성반.jpg" "received" null
+[00:26:50.859] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/절제반.jpg" "received" null
+[00:26:50.859] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/한서영.jpg" "received" null
+[00:26:55.074] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/희락반.jpg" "received" null
+[00:26:55.079] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/오래참음반.jpg" "received" null
+[00:26:55.092] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/양선반.jpg" "received" null
+[00:26:55.103] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/온유반.jpg" "received" null
+[00:26:55.109] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/자비반.jpg" "received" null
+[00:26:55.112] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/충성반.jpg" "received" null
+[00:26:55.136] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/절제반.jpg" "received" null
+[00:26:55.136] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/한서영.jpg" "received" null
+[00:26:59.505] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/희락반.jpg" "received" null
+[00:26:59.509] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/오래참음반.jpg" "received" null
+[00:26:59.522] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/양선반.jpg" "received" null
+[00:26:59.531] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/온유반.jpg" "received" null
+[00:26:59.577] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/자비반.jpg" "received" null
+[00:26:59.580] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/충성반.jpg" "received" null
+[00:26:59.582] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/절제반.jpg" "received" null
+[00:26:59.583] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/한서영.jpg" "received" null
+[00:29:07.340] Server  LOG     ✓ Compiled in 22ms
+[00:29:29.049] Server  LOG     ✓ Compiled in 23ms
+[00:29:29.518] Server  LOG     ✓ Compiled in 1ms
+[00:30:39.925] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:31:36.421] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/양선반.jpg" "received" null
+[00:31:36.421] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/오래참음반.jpg" "received" null
+[00:31:36.423] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/희락반.jpg" "received" null
+[00:31:36.465] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/온유반.jpg" "received" null
+[00:31:36.465] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/자비반.jpg" "received" null
+[00:31:36.468] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/충성반.jpg" "received" null
+[00:31:36.496] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/절제반.jpg" "received" null
+[00:31:36.497] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/한서영.jpg" "received" null
+[00:33:29.487] Browser WARN    Image with src "/images/공지사진/공지사항_1번/1번_로마서.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:33:30.365] Browser WARN    Image with src "/images/공지사진/공지사항_1번/1번_로마서.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:33:41.408] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:33:41.525] Browser WARN    Image with src "/images/공지사진/공지사항_1번/1번_로마서.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:34:51.243] Server  LOG     ✓ Compiled in 94ms
+[00:35:43.158] Server  LOG     ✓ Compiled in 40ms
+[00:35:53.712] Browser WARN    Image with src "/images/공지사진/공지사항_1번/2번_로마서.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:36:35.057] Server  LOG     ✓ Compiled in 16ms
+[00:36:44.124] Server  LOG     ✓ Compiled in 19ms

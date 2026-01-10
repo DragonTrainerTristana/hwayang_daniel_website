@@ -22,7 +22,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Hwayang_Church_Website$2f$hw
 const navigation = [
     {
         name: "소개",
-        href: "/"
+        href: "/about"
     },
     {
         name: "사역자들",

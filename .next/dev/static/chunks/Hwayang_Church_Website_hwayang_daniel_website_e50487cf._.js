@@ -17,7 +17,7 @@ var _s = __turbopack_context__.k.signature();
 const navigation = [
     {
         name: "소개",
-        href: "/"
+        href: "/about"
     },
     {
         name: "사역자들",

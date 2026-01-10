@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useState } from "react";
 
 const navigation = [
-  { name: "소개", href: "/" },
+  { name: "소개", href: "/about" },
   { name: "사역자들", href: "/ministers" },
   { name: "예배팀", href: "/worship-team" },
   { name: "활동", href: "/activities" },
