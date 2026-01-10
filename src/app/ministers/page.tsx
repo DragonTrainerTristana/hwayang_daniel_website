@@ -8,15 +8,15 @@ const ministers = [
     name: "정지운 전도사님",
     role: "초등부 담당 전도사",
     color: "bg-pink-100",
-    image: "/images/사역자들/전도사님.jpg",
+    image: "/images/사역자들/정지운_전도사님.png",
   },
 ];
 
 const teachers = [
   { name: "임미선", role: "1학년 희락반", color: "bg-yellow-100", image: "/images/사역자들/희락반.jpg" },
   { name: "김효건", role: "1학년 오래참음반", color: "bg-yellow-100", image: "/images/사역자들/오래참음반.jpg" },
-  { name: "오승현", role: "2학년 화평반", color: "bg-green-100", image: "/images/사역자들/화평반.jpg" },
-  { name: "조인표", role: "3학년 사랑반", color: "bg-blue-100", image: "/images/사역자들/사랑반.jpg" },
+  { name: "오승현", role: "2학년 화평반", color: "bg-green-100", image: "/images/사역자들/오승현_사진.png" },
+  { name: "조인표", role: "3학년 사랑반", color: "bg-blue-100", image: "/images/사역자들/조인표_사진.png" },
   { name: "김신미", role: "4학년 양선반", color: "bg-purple-100", image: "/images/사역자들/양선반.jpg" },
   { name: "배꽃하얀", role: "4학년 온유반", color: "bg-purple-100", image: "/images/사역자들/온유반.jpg" },
   { name: "안하은", role: "5학년 자비반", color: "bg-pink-100", image: "/images/사역자들/자비반.jpg" },

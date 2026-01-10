@@ -44,3 +44,57 @@
 [00:09:16.625] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/충성반.jpg" "received" null
 [00:09:16.627] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/절제반.jpg" "received" null
 [00:09:16.628] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/한서영.jpg" "received" null
+[00:11:24.065] Server  LOG     ✓ Compiled in 143ms
+[00:11:42.113] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/전도사님.jpg" "received" null
+[00:11:42.164] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:42.165] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/희락반.jpg" "received" null
+[00:11:42.166] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/오래참음반.jpg" "received" null
+[00:11:42.217] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/사랑반.jpg" "received" null
+[00:11:42.220] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/양선반.jpg" "received" null
+[00:11:42.225] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/온유반.jpg" "received" null
+[00:11:42.254] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/전도사님.jpg" "received" null
+[00:11:42.256] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/자비반.jpg" "received" null
+[00:11:42.302] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/충성반.jpg" "received" null
+[00:11:42.305] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/절제반.jpg" "received" null
+[00:11:42.306] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/한서영.jpg" "received" null
+[00:13:13.696] Server  LOG     ✓ Compiled in 21ms
+[00:13:26.841] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/전도사님.jpg" "received" null
+[00:13:26.872] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/희락반.jpg" "received" null
+[00:13:26.873] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/오래참음반.jpg" "received" null
+[00:13:26.910] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/양선반.jpg" "received" null
+[00:13:26.922] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:13:26.929] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/온유반.jpg" "received" null
+[00:13:26.962] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/자비반.jpg" "received" null
+[00:13:26.966] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/충성반.jpg" "received" null
+[00:13:26.985] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/절제반.jpg" "received" null
+[00:13:27.028] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/한서영.jpg" "received" null
+[00:13:27.029] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/전도사님.jpg" "received" null
+[00:13:27.050] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/희락반.jpg" "received" null
+[00:13:27.054] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/오래참음반.jpg" "received" null
+[00:15:37.150] Server  LOG     ✓ Compiled in 17ms
+[00:15:42.614] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/희락반.jpg" "received" null
+[00:15:42.617] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/오래참음반.jpg" "received" null
+[00:15:42.698] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:42.701] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/양선반.jpg" "received" null
+[00:15:42.701] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/온유반.jpg" "received" null
+[00:15:42.713] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/자비반.jpg" "received" null
+[00:15:42.718] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/충성반.jpg" "received" null
+[00:15:42.722] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/절제반.jpg" "received" null
+[00:15:42.768] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/한서영.jpg" "received" null
+[00:15:42.771] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/희락반.jpg" "received" null
+[00:15:42.774] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/오래참음반.jpg" "received" null
+[00:15:42.858] Browser WARN    Image with src "/images/사역자들/정지운_전도사님.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:15:45.998] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:16:49.408] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/희락반.jpg" "received" null
+[00:16:49.411] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/오래참음반.jpg" "received" null
+[00:16:49.459] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:16:49.479] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/양선반.jpg" "received" null
+[00:16:49.533] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/온유반.jpg" "received" null
+[00:16:49.538] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/자비반.jpg" "received" null
+[00:16:49.545] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/충성반.jpg" "received" null
+[00:16:49.545] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/절제반.jpg" "received" null
+[00:16:49.549] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/한서영.jpg" "received" null
+[00:16:49.581] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/오래참음반.jpg" "received" null
+[00:16:49.587] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/희락반.jpg" "received" null
+[00:17:08.977] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior

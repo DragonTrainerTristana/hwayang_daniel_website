@@ -18,7 +18,7 @@ const ministers = [
         name: "정지운 전도사님",
         role: "초등부 담당 전도사",
         color: "bg-pink-100",
-        image: "/images/사역자들/전도사님.jpg"
+        image: "/images/사역자들/정지운_전도사님.png"
     }
 ];
 const teachers = [
@@ -38,13 +38,13 @@ const teachers = [
         name: "오승현",
         role: "2학년 화평반",
         color: "bg-green-100",
-        image: "/images/사역자들/화평반.jpg"
+        image: "/images/사역자들/오승현_사진.png"
     },
     {
         name: "조인표",
         role: "3학년 사랑반",
         color: "bg-blue-100",
-        image: "/images/사역자들/사랑반.jpg"
+        image: "/images/사역자들/조인표_사진.png"
     },
     {
         name: "김신미",
