@@ -1,8 +1,7 @@
 const activities = [
-  { title: "주일 예배", when: "매주 주일", color: "bg-pink-100" },
-  { title: "성경 공부", when: "예배 후", color: "bg-blue-100" },
+  { title: "주일 예배", when: "매주 주일 오전 11시", color: "bg-pink-100" },
+  { title: "공과 공부", when: "예배 후", color: "bg-blue-100" },
   { title: "여름성경학교", when: "8월", color: "bg-yellow-100" },
-  { title: "겨울수련회", when: "1월", color: "bg-green-100" },
   { title: "달란트 시장", when: "분기별", color: "bg-purple-100" },
   { title: "생일 파티", when: "매월", color: "bg-orange-100" },
 ];
@@ -32,7 +31,7 @@ export default function ActivitiesPage() {
             연간 일정
           </p>
           <div className="flex justify-center gap-4 flex-wrap">
-            {["1월 수련회", "4월 부활절", "8월 여름성경학교", "12월 성탄절"].map((event, i) => (
+            {["4월 부활절", "8월 여름성경학교", "12월 성탄절"].map((event, i) => (
               <span key={i} className="px-4 py-2 bg-neutral-100 rounded-full text-sm">
                 {event}
               </span>

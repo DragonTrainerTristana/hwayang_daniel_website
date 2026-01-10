@@ -25,11 +25,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Hwayang_Church_Website$2f$hw
 const activities = [
     {
         title: "주일 예배",
-        when: "매주 주일",
+        when: "매주 주일 오전 11시",
         color: "bg-pink-100"
     },
     {
-        title: "성경 공부",
+        title: "공과 공부",
         when: "예배 후",
         color: "bg-blue-100"
     },
@@ -37,11 +37,6 @@ const activities = [
         title: "여름성경학교",
         when: "8월",
         color: "bg-yellow-100"
-    },
-    {
-        title: "겨울수련회",
-        when: "1월",
-        color: "bg-green-100"
     },
     {
         title: "달란트 시장",
@@ -65,7 +60,7 @@ function ActivitiesPage() {
                     children: "활동 🎈"
                 }, void 0, false, {
                     fileName: "[project]/Hwayang_Church_Website/hwayang_daniel_website/src/app/activities/page.tsx",
-                    lineNumber: 14,
+                    lineNumber: 13,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Hwayang_Church_Website$2f$hwayang_daniel_website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -73,7 +68,7 @@ function ActivitiesPage() {
                     children: "다니엘초등부에서 하는 재미있는 활동들"
                 }, void 0, false, {
                     fileName: "[project]/Hwayang_Church_Website/hwayang_daniel_website/src/app/activities/page.tsx",
-                    lineNumber: 17,
+                    lineNumber: 16,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Hwayang_Church_Website$2f$hwayang_daniel_website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -86,7 +81,7 @@ function ActivitiesPage() {
                                     children: activity.title
                                 }, void 0, false, {
                                     fileName: "[project]/Hwayang_Church_Website/hwayang_daniel_website/src/app/activities/page.tsx",
-                                    lineNumber: 24,
+                                    lineNumber: 23,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Hwayang_Church_Website$2f$hwayang_daniel_website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -94,18 +89,18 @@ function ActivitiesPage() {
                                     children: activity.when
                                 }, void 0, false, {
                                     fileName: "[project]/Hwayang_Church_Website/hwayang_daniel_website/src/app/activities/page.tsx",
-                                    lineNumber: 25,
+                                    lineNumber: 24,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, index, true, {
                             fileName: "[project]/Hwayang_Church_Website/hwayang_daniel_website/src/app/activities/page.tsx",
-                            lineNumber: 23,
+                            lineNumber: 22,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/Hwayang_Church_Website/hwayang_daniel_website/src/app/activities/page.tsx",
-                    lineNumber: 21,
+                    lineNumber: 20,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Hwayang_Church_Website$2f$hwayang_daniel_website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -116,13 +111,12 @@ function ActivitiesPage() {
                             children: "연간 일정"
                         }, void 0, false, {
                             fileName: "[project]/Hwayang_Church_Website/hwayang_daniel_website/src/app/activities/page.tsx",
-                            lineNumber: 31,
+                            lineNumber: 30,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Hwayang_Church_Website$2f$hwayang_daniel_website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "flex justify-center gap-4 flex-wrap",
                             children: [
-                                "1월 수련회",
                                 "4월 부활절",
                                 "8월 여름성경학교",
                                 "12월 성탄절"
@@ -131,18 +125,18 @@ function ActivitiesPage() {
                                     children: event
                                 }, i, false, {
                                     fileName: "[project]/Hwayang_Church_Website/hwayang_daniel_website/src/app/activities/page.tsx",
-                                    lineNumber: 36,
+                                    lineNumber: 35,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/Hwayang_Church_Website/hwayang_daniel_website/src/app/activities/page.tsx",
-                            lineNumber: 34,
+                            lineNumber: 33,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Hwayang_Church_Website/hwayang_daniel_website/src/app/activities/page.tsx",
-                    lineNumber: 30,
+                    lineNumber: 29,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Hwayang_Church_Website$2f$hwayang_daniel_website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -150,18 +144,18 @@ function ActivitiesPage() {
                     children: "* 실제 정보로 업데이트해주세요"
                 }, void 0, false, {
                     fileName: "[project]/Hwayang_Church_Website/hwayang_daniel_website/src/app/activities/page.tsx",
-                    lineNumber: 43,
+                    lineNumber: 42,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/Hwayang_Church_Website/hwayang_daniel_website/src/app/activities/page.tsx",
-            lineNumber: 13,
+            lineNumber: 12,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/Hwayang_Church_Website/hwayang_daniel_website/src/app/activities/page.tsx",
-        lineNumber: 12,
+        lineNumber: 11,
         columnNumber: 5
     }, this);
 }
