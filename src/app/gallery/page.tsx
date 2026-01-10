@@ -1,15 +1,15 @@
 const photos = [
-  { title: "여름성경학교", date: "2024.08", color: "bg-yellow-100" },
-  { title: "부활절 행사", date: "2024.04", color: "bg-pink-100" },
-  { title: "겨울수련회", date: "2024.01", color: "bg-blue-100" },
-  { title: "성탄 행사", date: "2023.12", color: "bg-green-100" },
-  { title: "달란트 시장", date: "2023.10", color: "bg-purple-100" },
-  { title: "주일 예배", date: "2023.09", color: "bg-orange-100" },
+  { title: "여름성경학교", date: "2024.08", color: "bg-white" },
+  { title: "부활절 행사", date: "2024.04", color: "bg-white" },
+  { title: "겨울수련회", date: "2024.01", color: "bg-white" },
+  { title: "성탄 행사", date: "2023.12", color: "bg-white" },
+  { title: "달란트 시장", date: "2023.10", color: "bg-white" },
+  { title: "주일 예배", date: "2023.09", color: "bg-white" },
 ];
 
 export default function GalleryPage() {
   return (
-    <div className="min-h-screen pt-24 pb-16 px-6">
+    <div className="min-h-screen pt-24 pb-16 px-6 bg-amber-50">
       <div className="mx-auto max-w-4xl">
         <h1 className="text-4xl font-extrabold text-center mb-4">
           갤러리 📸

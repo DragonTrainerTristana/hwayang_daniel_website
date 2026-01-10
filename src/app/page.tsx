@@ -20,7 +20,7 @@ const notices = [
       "/images/공지사진/공지사항_1번/2번_로마서.jpeg",
     ],
     description: "📖기적을 이루는 1월 성경통독🎀\n\n⏰돌아오는 주일, 로마서 성경통독 표를 나눠줍니다.\n\n- 5독, 10독, 20독, 30독 이상 챌린지에 함께 도전해요!💪",
-    color: "bg-pink-100",
+    color: "bg-amber-100",
   },
   {
     title: "주일성수 승리!",
@@ -30,14 +30,14 @@ const notices = [
       "/images/공지사진/공지사항_2번/공지사항2_2.jpeg",
     ],
     description: "샬롬(스타) 일어나 빛을 발하라!✨\n\n예수님의 부흥을 이뤄가는 주인공! 다니엘초등부 입니다✨✨",
-    color: "bg-blue-100",
+    color: "bg-amber-100",
   },
   {
     title: "공지사항 3",
     image: "",
     images: [],
     description: "",
-    color: "bg-green-100",
+    color: "bg-amber-100",
   },
 ];
 
@@ -82,7 +82,7 @@ export default function Home() {
 
       {/* 공지사항 Bottom Sheet */}
       <div
-        className={`absolute bottom-0 left-0 right-0 z-20 bg-[#fafafa] rounded-t-3xl shadow-2xl transition-transform duration-500 ease-out ${
+        className={`absolute bottom-0 left-0 right-0 z-20 bg-amber-50 rounded-t-3xl shadow-2xl transition-transform duration-500 ease-out ${
           isOpen ? "translate-y-0" : "translate-y-[calc(100%-56px)]"
         }`}
         style={{ height: "70vh" }}

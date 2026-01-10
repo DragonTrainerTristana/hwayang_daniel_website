@@ -1,14 +1,14 @@
 const activities = [
-  { title: "주일 예배", when: "매주 주일 오전 11시", color: "bg-pink-100" },
-  { title: "공과 공부", when: "예배 후", color: "bg-blue-100" },
-  { title: "여름성경학교", when: "8월", color: "bg-yellow-100" },
-  { title: "달란트 시장", when: "분기별", color: "bg-purple-100" },
-  { title: "생일 파티", when: "매월", color: "bg-orange-100" },
+  { title: "주일 예배", when: "매주 주일 오전 11시", color: "bg-white" },
+  { title: "공과 공부", when: "예배 후", color: "bg-white" },
+  { title: "여름성경학교", when: "8월", color: "bg-white" },
+  { title: "달란트 시장", when: "분기별", color: "bg-white" },
+  { title: "생일 파티", when: "매월", color: "bg-white" },
 ];
 
 export default function ActivitiesPage() {
   return (
-    <div className="min-h-screen pt-24 pb-16 px-6">
+    <div className="min-h-screen pt-24 pb-16 px-6 bg-amber-50">
       <div className="mx-auto max-w-4xl">
         <h1 className="text-4xl font-extrabold text-center mb-4">
           활동 🎈

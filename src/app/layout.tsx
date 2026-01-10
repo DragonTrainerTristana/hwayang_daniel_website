@@ -30,7 +30,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko">
-      <body className={`${nunito.variable} ${gowunDodum.variable} font-sans antialiased`}>
+      <body className={`${nunito.variable} ${gowunDodum.variable} font-sans antialiased bg-amber-50`}>
         <div className="min-h-screen flex flex-col">
           <Header />
           <main className="flex-grow">{children}</main>

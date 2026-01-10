@@ -11,6 +11,10 @@ const navigation = [
   { name: "갤러리", href: "/gallery" },
 ];
 
+const textShadowStyle = {
+  textShadow: "0 1px 3px rgba(0,0,0,0.5), 0 0 8px rgba(0,0,0,0.3)",
+};
+
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
@@ -18,7 +22,11 @@ export default function Header() {
     <header className="fixed top-0 left-0 right-0 z-50">
       <nav className="mx-auto max-w-6xl px-6 py-4">
         <div className="flex items-center justify-between">
-          <Link href="/" className="text-lg font-bold tracking-tight">
+          <Link
+            href="/"
+            className="text-lg font-bold tracking-tight text-white"
+            style={textShadowStyle}
+          >
             다니엘 ☁️
           </Link>
 
@@ -28,7 +36,8 @@ export default function Header() {
               <Link
                 key={item.name}
                 href={item.href}
-                className="text-sm font-medium text-neutral-700 hover:text-neutral-900 transition-colors"
+                className="text-sm font-bold text-white hover:text-white/80 transition-colors"
+                style={textShadowStyle}
               >
                 {item.name}
               </Link>
@@ -37,7 +46,8 @@ export default function Header() {
 
           {/* Mobile */}
           <button
-            className="md:hidden p-2"
+            className="md:hidden p-2 text-white"
+            style={textShadowStyle}
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           >
             <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
@@ -58,7 +68,7 @@ export default function Header() {
                 <Link
                   key={item.name}
                   href={item.href}
-                  className="text-sm font-medium text-neutral-600 hover:text-neutral-900 transition-colors"
+                  className="text-sm font-bold text-neutral-700 hover:text-neutral-900 transition-colors"
                   onClick={() => setMobileMenuOpen(false)}
                 >
                   {item.name}

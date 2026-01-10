@@ -1,15 +1,15 @@
 const worshipTeam = [
-  { name: "조이플 키즈팀", members: ["권혜정", "안하은"], color: "bg-pink-100" },
-  { name: "건반", members: ["배꽃하얀"], color: "bg-blue-100" },
-  { name: "영상/음향", members: ["오승현", "조인표"], color: "bg-purple-100" },
-  { name: "기도용사", members: ["조인표"], color: "bg-yellow-100" },
-  { name: "사진 및 영상 촬영", members: ["한서영"], color: "bg-green-100" },
-  { name: "예배 준비", members: ["윤성준"], color: "bg-orange-100" },
+  { name: "조이플 키즈팀", members: ["권혜정", "안하은"], color: "bg-white" },
+  { name: "건반", members: ["배꽃하얀"], color: "bg-white" },
+  { name: "영상/음향", members: ["오승현", "조인표"], color: "bg-white" },
+  { name: "기도용사", members: ["조인표"], color: "bg-white" },
+  { name: "사진 및 영상 촬영", members: ["한서영"], color: "bg-white" },
+  { name: "예배 준비", members: ["윤성준"], color: "bg-white" },
 ];
 
 export default function WorshipTeamPage() {
   return (
-    <div className="min-h-screen pt-24 pb-16 px-6">
+    <div className="min-h-screen pt-24 pb-16 px-6 bg-amber-50">
       <div className="mx-auto max-w-4xl">
         <h1 className="text-4xl font-extrabold text-center mb-4">
           다니엘 초등부 예배팀 🎵

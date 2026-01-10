@@ -1,6 +1,6 @@
 export default function AboutPage() {
   return (
-    <div className="min-h-screen pt-24 pb-16 px-6">
+    <div className="min-h-screen pt-24 pb-16 px-6 bg-amber-50">
       <div className="mx-auto max-w-4xl">
         <h1 className="text-4xl font-extrabold text-center mb-4">
           다니엘초등부 소개
