@@ -215,3 +215,9 @@ Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
 [00:35:53.712] Browser WARN    Image with src "/images/공지사진/공지사항_1번/2번_로마서.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
 [00:36:35.057] Server  LOG     ✓ Compiled in 16ms
 [00:36:44.124] Server  LOG     ✓ Compiled in 19ms
+[00:40:00.222] Server  LOG     ✓ Compiled in 27ms
+[00:40:00.595] Browser WARN    Image with src "/images/공지사진/공지사항_2번/공지사항2_1.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:40:01.365] Browser WARN    Image with src "/images/공지사진/공지사항_2번/공지사항2_1.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:40:08.893] Browser WARN    Image with src "/images/공지사진/공지사항_2번/공지사항2_2.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:40:45.272] Server  LOG     ✓ Compiled in 27ms
+[00:40:52.039] Server  LOG     ✓ Compiled in 19ms

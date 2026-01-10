@@ -23,10 +23,13 @@ const notices = [
     color: "bg-pink-100",
   },
   {
-    title: "공지사항 2",
-    image: "",
-    images: [],
-    description: "",
+    title: "주일성수 승리!",
+    image: "/images/공지사진/공지사항_2번/공지사항2_1.jpeg",
+    images: [
+      "/images/공지사진/공지사항_2번/공지사항2_1.jpeg",
+      "/images/공지사진/공지사항_2번/공지사항2_2.jpeg",
+    ],
+    description: "샬롬(스타) 일어나 빛을 발하라!✨\n\n예수님의 부흥을 이뤄가는 주인공! 다니엘초등부 입니다✨✨",
     color: "bg-blue-100",
   },
   {
@@ -137,7 +140,7 @@ export default function Home() {
           onClick={() => setSelectedNotice(null)}
         >
           <div
-            className="bg-white rounded-3xl max-w-2xl w-full max-h-[85vh] overflow-hidden"
+            className="bg-white rounded-3xl max-w-4xl w-full max-h-[85vh] overflow-hidden"
             onClick={(e) => e.stopPropagation()}
           >
             {/* 모달 헤더 */}
@@ -158,12 +161,12 @@ export default function Home() {
               {selectedNotice.images.length > 0 ? (
                 <div className="grid grid-cols-2 gap-3">
                   {selectedNotice.images.map((img, idx) => (
-                    <div key={idx} className="relative aspect-[4/5] rounded-xl overflow-hidden">
+                    <div key={idx} className="relative aspect-[3/4] rounded-xl overflow-hidden bg-neutral-100">
                       <Image
                         src={img}
                         alt={`${selectedNotice.title} ${idx + 1}`}
                         fill
-                        className="object-cover"
+                        className="object-contain"
                       />
                     </div>
                   ))}

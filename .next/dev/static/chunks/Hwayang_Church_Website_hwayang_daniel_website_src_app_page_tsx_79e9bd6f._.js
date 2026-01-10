@@ -33,10 +33,13 @@ const notices = [
         color: "bg-pink-100"
     },
     {
-        title: "공지사항 2",
-        image: "",
-        images: [],
-        description: "",
+        title: "주일성수 승리!",
+        image: "/images/공지사진/공지사항_2번/공지사항2_1.jpeg",
+        images: [
+            "/images/공지사진/공지사항_2번/공지사항2_1.jpeg",
+            "/images/공지사진/공지사항_2번/공지사항2_2.jpeg"
+        ],
+        description: "샬롬(스타) 일어나 빛을 발하라!✨\n\n예수님의 부흥을 이뤄가는 주인공! 다니엘초등부 입니다✨✨",
         color: "bg-blue-100"
     },
     {
@@ -78,14 +81,14 @@ function Home() {
                     }
                 }, index, false, {
                     fileName: "[project]/Hwayang_Church_Website/hwayang_daniel_website/src/app/page.tsx",
-                    lineNumber: 60,
+                    lineNumber: 63,
                     columnNumber: 9
                 }, this)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Hwayang_Church_Website$2f$hwayang_daniel_website$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-black/20"
             }, void 0, false, {
                 fileName: "[project]/Hwayang_Church_Website/hwayang_daniel_website/src/app/page.tsx",
-                lineNumber: 68,
+                lineNumber: 71,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Hwayang_Church_Website$2f$hwayang_daniel_website$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -96,7 +99,7 @@ function Home() {
                         children: "화양교회"
                     }, void 0, false, {
                         fileName: "[project]/Hwayang_Church_Website/hwayang_daniel_website/src/app/page.tsx",
-                        lineNumber: 72,
+                        lineNumber: 75,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Hwayang_Church_Website$2f$hwayang_daniel_website$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -107,13 +110,13 @@ function Home() {
                         children: "다니엘초등부"
                     }, void 0, false, {
                         fileName: "[project]/Hwayang_Church_Website/hwayang_daniel_website/src/app/page.tsx",
-                        lineNumber: 75,
+                        lineNumber: 78,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/Hwayang_Church_Website/hwayang_daniel_website/src/app/page.tsx",
-                lineNumber: 71,
+                lineNumber: 74,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Hwayang_Church_Website$2f$hwayang_daniel_website$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -130,7 +133,7 @@ function Home() {
                                 className: "w-10 h-1 bg-neutral-300 rounded-full mb-1.5"
                             }, void 0, false, {
                                 fileName: "[project]/Hwayang_Church_Website/hwayang_daniel_website/src/app/page.tsx",
-                                lineNumber: 92,
+                                lineNumber: 95,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Hwayang_Church_Website$2f$hwayang_daniel_website$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -142,19 +145,19 @@ function Home() {
                                         children: "▲"
                                     }, void 0, false, {
                                         fileName: "[project]/Hwayang_Church_Website/hwayang_daniel_website/src/app/page.tsx",
-                                        lineNumber: 95,
+                                        lineNumber: 98,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Hwayang_Church_Website/hwayang_daniel_website/src/app/page.tsx",
-                                lineNumber: 93,
+                                lineNumber: 96,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Hwayang_Church_Website/hwayang_daniel_website/src/app/page.tsx",
-                        lineNumber: 88,
+                        lineNumber: 91,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Hwayang_Church_Website$2f$hwayang_daniel_website$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -179,18 +182,18 @@ function Home() {
                                                     className: "object-cover"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Hwayang_Church_Website/hwayang_daniel_website/src/app/page.tsx",
-                                                    lineNumber: 113,
+                                                    lineNumber: 116,
                                                     columnNumber: 23
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/Hwayang_Church_Website/hwayang_daniel_website/src/app/page.tsx",
-                                                lineNumber: 112,
+                                                lineNumber: 115,
                                                 columnNumber: 21
                                             }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Hwayang_Church_Website$2f$hwayang_daniel_website$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: `h-28 ${notice.color}`
                                             }, void 0, false, {
                                                 fileName: "[project]/Hwayang_Church_Website/hwayang_daniel_website/src/app/page.tsx",
-                                                lineNumber: 121,
+                                                lineNumber: 124,
                                                 columnNumber: 21
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Hwayang_Church_Website$2f$hwayang_daniel_website$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -200,46 +203,46 @@ function Home() {
                                                     children: notice.title
                                                 }, void 0, false, {
                                                     fileName: "[project]/Hwayang_Church_Website/hwayang_daniel_website/src/app/page.tsx",
-                                                    lineNumber: 124,
+                                                    lineNumber: 127,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/Hwayang_Church_Website/hwayang_daniel_website/src/app/page.tsx",
-                                                lineNumber: 123,
+                                                lineNumber: 126,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, index, true, {
                                         fileName: "[project]/Hwayang_Church_Website/hwayang_daniel_website/src/app/page.tsx",
-                                        lineNumber: 106,
+                                        lineNumber: 109,
                                         columnNumber: 17
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/Hwayang_Church_Website/hwayang_daniel_website/src/app/page.tsx",
-                                lineNumber: 104,
+                                lineNumber: 107,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/Hwayang_Church_Website/hwayang_daniel_website/src/app/page.tsx",
-                            lineNumber: 103,
+                            lineNumber: 106,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/Hwayang_Church_Website/hwayang_daniel_website/src/app/page.tsx",
-                        lineNumber: 102,
+                        lineNumber: 105,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/Hwayang_Church_Website/hwayang_daniel_website/src/app/page.tsx",
-                lineNumber: 81,
+                lineNumber: 84,
                 columnNumber: 7
             }, this),
             selectedNotice && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Hwayang_Church_Website$2f$hwayang_daniel_website$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "fixed inset-0 z-50 bg-black/70 flex items-center justify-center p-4",
                 onClick: ()=>setSelectedNotice(null),
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Hwayang_Church_Website$2f$hwayang_daniel_website$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "bg-white rounded-3xl max-w-2xl w-full max-h-[85vh] overflow-hidden",
+                    className: "bg-white rounded-3xl max-w-4xl w-full max-h-[85vh] overflow-hidden",
                     onClick: (e)=>e.stopPropagation(),
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Hwayang_Church_Website$2f$hwayang_daniel_website$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -250,7 +253,7 @@ function Home() {
                                     children: selectedNotice.title
                                 }, void 0, false, {
                                     fileName: "[project]/Hwayang_Church_Website/hwayang_daniel_website/src/app/page.tsx",
-                                    lineNumber: 145,
+                                    lineNumber: 148,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Hwayang_Church_Website$2f$hwayang_daniel_website$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -268,23 +271,23 @@ function Home() {
                                             d: "M6 18L18 6M6 6l12 12"
                                         }, void 0, false, {
                                             fileName: "[project]/Hwayang_Church_Website/hwayang_daniel_website/src/app/page.tsx",
-                                            lineNumber: 151,
+                                            lineNumber: 154,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/Hwayang_Church_Website/hwayang_daniel_website/src/app/page.tsx",
-                                        lineNumber: 150,
+                                        lineNumber: 153,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/Hwayang_Church_Website/hwayang_daniel_website/src/app/page.tsx",
-                                    lineNumber: 146,
+                                    lineNumber: 149,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Hwayang_Church_Website/hwayang_daniel_website/src/app/page.tsx",
-                            lineNumber: 144,
+                            lineNumber: 147,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Hwayang_Church_Website$2f$hwayang_daniel_website$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -296,25 +299,25 @@ function Home() {
                                 selectedNotice.images.length > 0 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Hwayang_Church_Website$2f$hwayang_daniel_website$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "grid grid-cols-2 gap-3",
                                     children: selectedNotice.images.map((img, idx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Hwayang_Church_Website$2f$hwayang_daniel_website$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "relative aspect-[4/5] rounded-xl overflow-hidden",
+                                            className: "relative aspect-[3/4] rounded-xl overflow-hidden bg-neutral-100",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Hwayang_Church_Website$2f$hwayang_daniel_website$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Hwayang_Church_Website$2f$hwayang_daniel_website$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                                 src: img,
                                                 alt: `${selectedNotice.title} ${idx + 1}`,
                                                 fill: true,
-                                                className: "object-cover"
+                                                className: "object-contain"
                                             }, void 0, false, {
                                                 fileName: "[project]/Hwayang_Church_Website/hwayang_daniel_website/src/app/page.tsx",
-                                                lineNumber: 162,
+                                                lineNumber: 165,
                                                 columnNumber: 23
                                             }, this)
                                         }, idx, false, {
                                             fileName: "[project]/Hwayang_Church_Website/hwayang_daniel_website/src/app/page.tsx",
-                                            lineNumber: 161,
+                                            lineNumber: 164,
                                             columnNumber: 21
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/Hwayang_Church_Website/hwayang_daniel_website/src/app/page.tsx",
-                                    lineNumber: 159,
+                                    lineNumber: 162,
                                     columnNumber: 17
                                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Hwayang_Church_Website$2f$hwayang_daniel_website$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: `h-48 rounded-2xl ${selectedNotice.color} flex items-center justify-center`,
@@ -323,12 +326,12 @@ function Home() {
                                         children: "이미지가 없습니다"
                                     }, void 0, false, {
                                         fileName: "[project]/Hwayang_Church_Website/hwayang_daniel_website/src/app/page.tsx",
-                                        lineNumber: 173,
+                                        lineNumber: 176,
                                         columnNumber: 19
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/Hwayang_Church_Website/hwayang_daniel_website/src/app/page.tsx",
-                                    lineNumber: 172,
+                                    lineNumber: 175,
                                     columnNumber: 17
                                 }, this),
                                 selectedNotice.description && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Hwayang_Church_Website$2f$hwayang_daniel_website$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -338,35 +341,35 @@ function Home() {
                                         children: selectedNotice.description
                                     }, void 0, false, {
                                         fileName: "[project]/Hwayang_Church_Website/hwayang_daniel_website/src/app/page.tsx",
-                                        lineNumber: 180,
+                                        lineNumber: 183,
                                         columnNumber: 19
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/Hwayang_Church_Website/hwayang_daniel_website/src/app/page.tsx",
-                                    lineNumber: 179,
+                                    lineNumber: 182,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Hwayang_Church_Website/hwayang_daniel_website/src/app/page.tsx",
-                            lineNumber: 157,
+                            lineNumber: 160,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Hwayang_Church_Website/hwayang_daniel_website/src/app/page.tsx",
-                    lineNumber: 139,
+                    lineNumber: 142,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/Hwayang_Church_Website/hwayang_daniel_website/src/app/page.tsx",
-                lineNumber: 135,
+                lineNumber: 138,
                 columnNumber: 9
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/Hwayang_Church_Website/hwayang_daniel_website/src/app/page.tsx",
-        lineNumber: 57,
+        lineNumber: 60,
         columnNumber: 5
     }, this);
 }
