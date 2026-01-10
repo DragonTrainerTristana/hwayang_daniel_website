@@ -1,0 +1,46 @@
+[00:00:01.484] Server  LOG     ✓ Ready in 1305ms
+[00:00:16.072] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:16.518] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:16.984] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:19.060] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:01:11.391] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/4학년.jpg" "received" null
+[00:01:11.392] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/3학년.jpg" "received" null
+[00:01:11.392] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/2학년.jpg" "received" null
+[00:01:11.393] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/전도사님.jpg" "received" null
+[00:01:11.393] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/1학년.jpg" "received" null
+[00:01:11.398] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/5학년.jpg" "received" null
+[00:01:11.423] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/6학년.jpg" "received" null
+[00:01:39.633] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/전도사님.jpg" "received" null
+[00:01:39.639] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/1학년.jpg" "received" null
+[00:01:39.657] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/2학년.jpg" "received" null
+[00:01:39.668] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:39.669] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/3학년.jpg" "received" null
+[00:01:39.731] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/4학년.jpg" "received" null
+[00:01:39.740] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/5학년.jpg" "received" null
+[00:01:39.741] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/6학년.jpg" "received" null
+[00:02:08.331] Server  LOG     ✓ Compiled in 0ms
+[00:02:08.341] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/전도사님.jpg" "received" null
+[00:02:08.342] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/1학년.jpg" "received" null
+[00:02:08.352] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/2학년.jpg" "received" null
+[00:02:08.408] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/3학년.jpg" "received" null
+[00:02:08.441] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/4학년.jpg" "received" null
+[00:02:08.445] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/5학년.jpg" "received" null
+[00:02:08.447] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/6학년.jpg" "received" null
+[00:02:08.470] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/6학년.jpg" "received" null
+[00:03:15.069] Server  LOG     ✓ Compiled in 66ms
+[00:03:15.137] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/6학년.jpg" "received" null
+[00:03:24.251] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/전도사님.jpg" "received" null
+[00:03:24.283] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:24.287] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/1학년_1반.jpg" "received" null
+[00:03:24.290] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/1학년_2반.jpg" "received" null
+[00:03:24.306] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/2학년.jpg" "received" null
+[00:03:24.337] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/3학년.jpg" "received" null
+[00:03:24.358] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/4학년.jpg" "received" null
+[00:03:24.360] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/5학년.jpg" "received" null
+[00:03:24.368] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/6학년.jpg" "received" null
+[00:03:24.383] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/전도사님.jpg" "received" null
+[00:04:52.291] Server  LOG     ✓ Compiled in 22ms
+[00:09:16.615] Server  LOG     ✓ Compiled in 25ms
+[00:09:16.625] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/충성반.jpg" "received" null
+[00:09:16.627] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/절제반.jpg" "received" null
+[00:09:16.628] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/한서영.jpg" "received" null
