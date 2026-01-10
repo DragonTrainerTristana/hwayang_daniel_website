@@ -2,8 +2,12 @@
 
 import { useState, useEffect } from "react";
 
-// 배경 이미지
-const backgroundImage = "/images/메인사진/메인_1.jpg";
+// 배경 이미지들
+const backgroundImages = [
+  "/images/메인사진/메인_1.jpg",
+  "/images/메인사진/메인_2.jpg",
+  "/images/메인사진/메인_3.jpg",
+];
 
 // 공지사항 카드 (실제 내용으로 교체하세요)
 const notices = [
@@ -42,8 +46,10 @@ const notices = [
 export default function Home() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isOpen, setIsOpen] = useState(false);
+  const [bgIndex, setBgIndex] = useState(0);
   const totalPages = Math.ceil(notices.length / 3);
 
+  // 공지사항 자동 전환
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prev) => (prev + 1) % totalPages);
@@ -51,15 +57,28 @@ export default function Home() {
     return () => clearInterval(interval);
   }, [totalPages]);
 
+  // 배경 이미지 자동 전환 (5초 간격)
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setBgIndex((prev) => (prev + 1) % backgroundImages.length);
+    }, 5000);
+    return () => clearInterval(interval);
+  }, []);
+
   const currentNotices = notices.slice(currentIndex * 3, currentIndex * 3 + 3);
 
   return (
     <div className="relative h-screen overflow-hidden">
-      {/* Background Image - 전체 화면 */}
-      <div
-        className="absolute inset-0 bg-cover"
-        style={{ backgroundImage: `url(${backgroundImage})`, backgroundPosition: 'center 80%' }}
-      />
+      {/* Background Images - 슬라이드쇼 */}
+      {backgroundImages.map((img, index) => (
+        <div
+          key={index}
+          className={`absolute inset-0 bg-cover transition-opacity duration-1000 ${
+            index === bgIndex ? "opacity-100" : "opacity-0"
+          }`}
+          style={{ backgroundImage: `url(${img})`, backgroundPosition: 'center 80%' }}
+        />
+      ))}
       <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-black/20" />
 
       {/* Title */}

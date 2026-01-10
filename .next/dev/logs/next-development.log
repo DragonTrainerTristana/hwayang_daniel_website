@@ -135,3 +135,37 @@ Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
 [00:22:12.073] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/충성반.jpg" "received" null
 [00:22:12.128] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/절제반.jpg" "received" null
 [00:22:12.129] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/한서영.jpg" "received" null
+[00:22:35.847] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/희락반.jpg" "received" null
+[00:22:35.866] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/오래참음반.jpg" "received" null
+[00:22:35.871] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/양선반.jpg" "received" null
+[00:22:35.875] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/온유반.jpg" "received" null
+[00:22:35.912] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/자비반.jpg" "received" null
+[00:22:35.927] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/충성반.jpg" "received" null
+[00:22:35.930] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/절제반.jpg" "received" null
+[00:22:35.930] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/한서영.jpg" "received" null
+[00:25:44.990] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/희락반.jpg" "received" null
+[00:25:44.995] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/오래참음반.jpg" "received" null
+[00:25:45.011] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/양선반.jpg" "received" null
+[00:25:45.025] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/온유반.jpg" "received" null
+[00:25:45.030] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/자비반.jpg" "received" null
+[00:25:45.031] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/충성반.jpg" "received" null
+[00:25:45.059] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/절제반.jpg" "received" null
+[00:25:45.060] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/사역자들/한서영.jpg" "received" null
+[00:25:52.776] Server  LOG     ✓ Compiled in 19ms
+[00:25:52.864] Browser ERROR   uncaughtError: ReferenceError: backgroundImage is not defined
+[00:25:53.365] Browser ERROR   uncaughtError: ReferenceError: backgroundImage is not defined
+[00:25:59.269] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:25:59.271] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:25:59.410] Server  LOG     ✓ Compiled in 10ms
+[00:25:59.457] Server  ERROR   ⨯ ReferenceError: backgroundImage is not defined
+[00:25:59.485] Browser ERROR   uncaughtError: ReferenceError: backgroundImage is not defined
+[00:25:59.504] Server  ERROR   ⨯ ReferenceError: backgroundImage is not defined
+[00:25:59.600] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:25:59.660] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:25:59.714] Browser ERROR   uncaughtError: ReferenceError: backgroundImage is not defined
+[00:26:00.366] Browser ERROR   uncaughtError: ReferenceError: backgroundImage is not defined
+[00:26:05.369] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:26:05.370] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:26:05.442] Server  LOG     ✓ Compiled in 34ms
+[00:26:05.693] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:26:05.694] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
