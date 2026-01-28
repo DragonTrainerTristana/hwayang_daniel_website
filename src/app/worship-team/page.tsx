@@ -1,7 +1,7 @@
 const worshipTeam = [
   { name: "조이플 키즈팀", members: ["권혜정", "안하은"], color: "bg-white" },
-  { name: "건반", members: ["배꽃하얀"], color: "bg-white" },
-  { name: "영상/음향", members: ["오승현", "조인표"], color: "bg-white" },
+  { name: "세션팀", members: ["건반 : 배꽃하얀"], color: "bg-white" },
+  { name: "영상/음향", members: ["오승현", "이시훈"], color: "bg-white" },
   { name: "기도용사", members: ["조인표"], color: "bg-white" },
   { name: "사진 및 영상 촬영", members: ["한서영"], color: "bg-white" },
   { name: "예배 준비", members: ["윤성준"], color: "bg-white" },

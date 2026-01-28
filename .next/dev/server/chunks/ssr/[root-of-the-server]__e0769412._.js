@@ -32,9 +32,9 @@ const worshipTeam = [
         color: "bg-white"
     },
     {
-        name: "건반",
+        name: "세션팀",
         members: [
-            "배꽃하얀"
+            "건반 : 배꽃하얀"
         ],
         color: "bg-white"
     },
@@ -42,7 +42,7 @@ const worshipTeam = [
         name: "영상/음향",
         members: [
             "오승현",
-            "조인표"
+            "이시훈"
         ],
         color: "bg-white"
     },
