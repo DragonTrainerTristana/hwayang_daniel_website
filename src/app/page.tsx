@@ -5,9 +5,11 @@ import Image from "next/image";
 
 // 배경 이미지들
 const backgroundImages = [
-  "/images/메인사진/메인_1.jpg",
-  "/images/메인사진/메인_2.jpg",
-  "/images/메인사진/메인_3.jpg",
+  { src: "/images/메인뒷배경/메인배너_1.jpeg", position: "center 80%" },
+  { src: "/images/메인뒷배경/메인배너_2.jpeg", position: "center 30%" },
+  { src: "/images/메인뒷배경/메인배너_3.jpeg", position: "center 30%" },
+  { src: "/images/메인뒷배경/메인배너_4.jpeg", position: "center 80%" },
+  { src: "/images/메인뒷배경/메인배너_5.jpeg", position: "center 80%" },
 ];
 
 // 공지사항 카드
@@ -33,10 +35,11 @@ const notices = [
     color: "bg-amber-100",
   },
   {
-    title: "공지사항 3",
+    title: "다니엘 예배팀 모집",
     image: "",
     images: [],
-    description: "",
+    description:
+      "다니엘초등부 예배팀을 모집합니다.\n\n조이플키즈, 조이플찬양, 기도용사, 예배섬김이 등\n예배를 함께 섬길 친구들을 기다립니다!",
     color: "bg-amber-100",
   },
 ];
@@ -65,7 +68,7 @@ export default function Home() {
           className={`absolute inset-0 bg-cover transition-opacity duration-1000 ${
             index === bgIndex ? "opacity-100" : "opacity-0"
           }`}
-          style={{ backgroundImage: `url(${img})`, backgroundPosition: 'center 80%' }}
+          style={{ backgroundImage: `url(${img.src})`, backgroundPosition: img.position }}
         />
       ))}
       <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-black/20" />
@@ -104,7 +107,7 @@ export default function Home() {
         {/* Content */}
         <div className="px-6 pb-10 overflow-auto" style={{ height: "calc(100% - 60px)" }}>
           <div className="max-w-5xl mx-auto">
-            <div className="grid md:grid-cols-3 gap-4">
+<div className="grid md:grid-cols-3 gap-4">
               {notices.map((notice, index) => (
                 <div
                   key={index}

@@ -5,10 +5,11 @@ import { useState } from "react";
 
 const navigation = [
   { name: "소개", href: "/about" },
-  { name: "사역자들", href: "/ministers" },
-  { name: "예배팀", href: "/worship-team" },
-  { name: "활동", href: "/activities" },
-  { name: "갤러리", href: "/gallery" },
+  { name: "선생님들", href: "/ministers" },
+  { name: "다니엘 예배팀", href: "/worship-team" },
+  { name: "예배 및 활동", href: "/activities" },
+  { name: "새가족", href: "/new-family" },
+  { name: "연간계획", href: "/annual-plan" },
 ];
 
 const textShadowStyle = {
@@ -19,8 +20,8 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50">
-      <nav className="mx-auto max-w-6xl px-6 py-4">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-black/15 backdrop-blur-sm">
+      <nav className="mx-auto max-w-6xl px-6 py-2">
         <div className="flex items-center justify-between">
           <Link
             href="/"
@@ -31,7 +32,7 @@ export default function Header() {
           </Link>
 
           {/* Desktop */}
-          <div className="hidden md:flex items-center gap-6">
+          <div className="hidden md:flex items-center gap-4">
             {navigation.map((item) => (
               <Link
                 key={item.name}

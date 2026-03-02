@@ -21,123 +21,143 @@ __turbopack_context__.s([
     ()=>WorshipTeamPage
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$Hwayang_Church_Website$2f$hwayang_daniel_website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Hwayang_Church_Website/hwayang_daniel_website/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Hwayang_Church_Website$2f$hwayang_daniel_website$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Hwayang_Church_Website/hwayang_daniel_website/node_modules/next/image.js [app-rsc] (ecmascript)");
 ;
-const worshipTeam = [
+;
+const worshipTeams = [
     {
         name: "조이플 키즈팀",
-        members: [
-            "권혜정",
-            "안하은"
-        ],
-        color: "bg-white"
+        teachers: "지도교사: 권혜정, 안하은",
+        description: "하나님을 기쁘게 찬양하는 조이플 키즈팀이에요.\n주일 예배에 '율동'으로 예배를 섬겨요",
+        image: "/images/예배팀/조이플키즈팀_사진.png",
+        icon: ""
     },
     {
-        name: "세션팀",
-        members: [
-            "건반 : 배꽃하얀"
-        ],
-        color: "bg-white"
-    },
-    {
-        name: "영상/음향",
-        members: [
-            "오승현",
-            "이시훈"
-        ],
-        color: "bg-white"
+        name: "조이플 찬양팀",
+        teachers: "지도교사: 권혜정, 안하은",
+        description: "하나님을 기쁘게 찬양하는 조이플 찬양팀이에요.\n주일 예배에 '찬양'으로 예배를 섬겨요",
+        image: "/images/예배팀/조이플찬양팀_사진.png",
+        icon: ""
     },
     {
         name: "기도용사",
-        members: [
-            "조인표"
-        ],
-        color: "bg-white"
+        teachers: "",
+        description: "예배 전 중보기도로 예배를 준비해요.\n초등부의 가장 든든한 기도용사들이에요.",
+        image: "/images/예배팀/기도용사_사진.png",
+        icon: ""
     },
     {
-        name: "사진 및 영상 촬영",
-        members: [
-            "한서영"
-        ],
-        color: "bg-white"
-    },
-    {
-        name: "예배 준비",
-        members: [
-            "윤성준"
-        ],
-        color: "bg-white"
+        name: "예배섬김이",
+        teachers: "",
+        description: "예배를 위해 여러 가지 역할로 준비합니다.\n예배 반주, 예배방석 준비, 큐티 도장, 예배 시간 알림이 등",
+        image: "/images/예배팀/예배섬김이_사진.jpeg",
+        contain: true,
+        icon: "🙌"
     }
 ];
 function WorshipTeamPage() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Hwayang_Church_Website$2f$hwayang_daniel_website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "min-h-screen pt-24 pb-16 px-6 bg-amber-50",
+        className: "min-h-screen pt-24 pb-16 px-6 bg-gray-50",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Hwayang_Church_Website$2f$hwayang_daniel_website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "mx-auto max-w-4xl",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Hwayang_Church_Website$2f$hwayang_daniel_website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                     className: "text-4xl font-extrabold text-center mb-4",
-                    children: "다니엘 초등부 예배팀 🎵"
+                    children: "다니엘 초등부 예배팀"
                 }, void 0, false, {
                     fileName: "[project]/Hwayang_Church_Website/hwayang_daniel_website/src/app/worship-team/page.tsx",
-                    lineNumber: 14,
+                    lineNumber: 43,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Hwayang_Church_Website$2f$hwayang_daniel_website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                     className: "text-center text-neutral-500 mb-16",
-                    children: "찬양으로 예배를 이끄는 팀이에요"
+                    children: "다니엘초등부는 어린이들이 하나님을 사랑하는 마음으로 예배를 준비하며 거룩한 예배자로 섬깁니다."
                 }, void 0, false, {
                     fileName: "[project]/Hwayang_Church_Website/hwayang_daniel_website/src/app/worship-team/page.tsx",
-                    lineNumber: 17,
+                    lineNumber: 46,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Hwayang_Church_Website$2f$hwayang_daniel_website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "grid md:grid-cols-2 gap-4",
-                    children: worshipTeam.map((team, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Hwayang_Church_Website$2f$hwayang_daniel_website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: `p-6 rounded-2xl ${team.color}`,
+                    className: "grid md:grid-cols-2 gap-6",
+                    children: worshipTeams.map((team, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Hwayang_Church_Website$2f$hwayang_daniel_website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "bg-white rounded-2xl overflow-hidden border border-neutral-200 shadow-md",
                             children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Hwayang_Church_Website$2f$hwayang_daniel_website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "font-bold mb-3",
-                                    children: team.name
+                                team.image ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Hwayang_Church_Website$2f$hwayang_daniel_website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "relative aspect-[16/9]",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Hwayang_Church_Website$2f$hwayang_daniel_website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Hwayang_Church_Website$2f$hwayang_daniel_website$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                        src: team.image,
+                                        alt: team.name,
+                                        fill: true,
+                                        className: team.contain ? "object-contain" : "object-cover"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Hwayang_Church_Website/hwayang_daniel_website/src/app/worship-team/page.tsx",
+                                        lineNumber: 56,
+                                        columnNumber: 19
+                                    }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/Hwayang_Church_Website/hwayang_daniel_website/src/app/worship-team/page.tsx",
-                                    lineNumber: 24,
-                                    columnNumber: 15
+                                    lineNumber: 55,
+                                    columnNumber: 17
+                                }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Hwayang_Church_Website$2f$hwayang_daniel_website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "aspect-[16/9] bg-neutral-100"
+                                }, void 0, false, {
+                                    fileName: "[project]/Hwayang_Church_Website/hwayang_daniel_website/src/app/worship-team/page.tsx",
+                                    lineNumber: 64,
+                                    columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Hwayang_Church_Website$2f$hwayang_daniel_website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "flex flex-wrap gap-2",
-                                    children: team.members.map((member, idx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Hwayang_Church_Website$2f$hwayang_daniel_website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: "text-sm bg-white/60 px-3 py-1 rounded-full",
-                                            children: member
-                                        }, idx, false, {
+                                    className: "p-6",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Hwayang_Church_Website$2f$hwayang_daniel_website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                            className: "text-lg font-bold text-neutral-800 mb-1",
+                                            children: team.name
+                                        }, void 0, false, {
                                             fileName: "[project]/Hwayang_Church_Website/hwayang_daniel_website/src/app/worship-team/page.tsx",
-                                            lineNumber: 27,
+                                            lineNumber: 67,
+                                            columnNumber: 17
+                                        }, this),
+                                        team.teachers && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Hwayang_Church_Website$2f$hwayang_daniel_website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "text-sm text-rose-400 mb-3",
+                                            children: team.teachers
+                                        }, void 0, false, {
+                                            fileName: "[project]/Hwayang_Church_Website/hwayang_daniel_website/src/app/worship-team/page.tsx",
+                                            lineNumber: 71,
                                             columnNumber: 19
-                                        }, this))
-                                }, void 0, false, {
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Hwayang_Church_Website$2f$hwayang_daniel_website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "text-sm text-neutral-600 leading-relaxed whitespace-pre-line",
+                                            children: team.description
+                                        }, void 0, false, {
+                                            fileName: "[project]/Hwayang_Church_Website/hwayang_daniel_website/src/app/worship-team/page.tsx",
+                                            lineNumber: 73,
+                                            columnNumber: 17
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
                                     fileName: "[project]/Hwayang_Church_Website/hwayang_daniel_website/src/app/worship-team/page.tsx",
-                                    lineNumber: 25,
+                                    lineNumber: 66,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, index, true, {
                             fileName: "[project]/Hwayang_Church_Website/hwayang_daniel_website/src/app/worship-team/page.tsx",
-                            lineNumber: 23,
+                            lineNumber: 53,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/Hwayang_Church_Website/hwayang_daniel_website/src/app/worship-team/page.tsx",
-                    lineNumber: 21,
+                    lineNumber: 51,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/Hwayang_Church_Website/hwayang_daniel_website/src/app/worship-team/page.tsx",
-            lineNumber: 13,
+            lineNumber: 42,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/Hwayang_Church_Website/hwayang_daniel_website/src/app/worship-team/page.tsx",
-        lineNumber: 12,
+        lineNumber: 41,
         columnNumber: 5
     }, this);
 }

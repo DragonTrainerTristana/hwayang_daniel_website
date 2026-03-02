@@ -17,74 +17,74 @@ var _s = __turbopack_context__.k.signature();
 const minister = {
     name: "정지운",
     role: "담당 전도사",
-    image: "/images/사역자들/정지운_전도사님.png"
+    image: "/images/선생님들/정지운전도사님_사진.png"
 };
 const teachers = [
     {
-        name: "임미선",
+        name: "한서영",
         role: "1학년 희락반",
         icon: "☺️",
-        image: "/images/사역자들/희락반.jpg"
-    },
-    {
-        name: "김효건",
-        role: "1학년 오래참음반",
-        icon: "🌱",
-        image: "/images/사역자들/오래참음반.jpg"
-    },
-    {
-        name: "오승현",
-        role: "2학년 화평반",
-        icon: "🕊️",
-        image: "/images/사역자들/오승현_사진.png"
-    },
-    {
-        name: "조인표",
-        role: "3학년 사랑반",
-        icon: "💕",
-        image: "/images/사역자들/조인표_사진.png"
+        image: "/images/선생님들/한서영_사진.png"
     },
     {
         name: "김신미",
-        role: "4학년 양선반",
-        icon: "✨",
-        image: "/images/사역자들/양선반.jpg"
-    },
-    {
-        name: "배꽃하얀",
-        role: "4학년 온유반",
-        icon: "🌸",
-        image: "/images/사역자들/온유반.jpg"
+        role: "2학년 화평반",
+        icon: "🕊️",
+        image: "/images/선생님들/김신미_사진.jpeg"
     },
     {
         name: "안하은",
-        role: "5학년 자비반",
+        role: "2학년 자비반",
         icon: "💝",
-        image: "/images/사역자들/자비반.jpg"
+        image: "/images/선생님들/안하은_사진.png"
     },
     {
-        name: "윤성준",
-        role: "6학년 충성반",
-        icon: "⭐",
-        image: "/images/사역자들/충성반.jpg"
+        name: "이진석",
+        role: "3학년 온유반",
+        icon: "🌸",
+        image: "/images/선생님들/이진석_사진.jpeg"
+    },
+    {
+        name: "배꽃하얀",
+        role: "4학년 사랑반",
+        icon: "💕",
+        image: "/images/선생님들/배꽃하얀_사진.jpeg"
+    },
+    {
+        name: "오승현",
+        role: "5학년 절제반",
+        icon: "💎",
+        image: "/images/선생님들/오승현_사진.png"
     },
     {
         name: "권혜정",
-        role: "6학년 절제반",
-        icon: "💎",
-        image: "/images/사역자들/절제반.jpg"
+        role: "5학년 충성반",
+        icon: "⭐",
+        image: "/images/선생님들/권혜정_사진.png"
     },
     {
-        name: "한서영",
+        name: "박은주",
+        role: "6학년 양선반",
+        icon: "✨",
+        image: "/images/선생님들/박은주_사진.png"
+    },
+    {
+        name: "이시훈",
+        role: "6학년 양선반",
+        icon: "✨",
+        image: "/images/선생님들/이시훈_사진.jpeg"
+    },
+    {
+        name: "박영실",
         role: "",
         icon: "",
-        image: "/images/사역자들/한서영.jpg"
+        image: ""
     }
 ];
 function ProfileImage({ src, alt }) {
     _s();
     const [hasError, setHasError] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Hwayang_Church_Website$2f$hwayang_daniel_website$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
-    if (hasError) {
+    if (!src || hasError) {
         return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Hwayang_Church_Website$2f$hwayang_daniel_website$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "w-full h-full bg-gray-100"
         }, void 0, false, {
