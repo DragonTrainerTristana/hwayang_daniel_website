@@ -15,31 +15,35 @@ const backgroundImages = [
 // 공지사항 카드
 const notices = [
   {
-    title: "1월 로마서 통독",
-    image: "/images/공지사진/공지사항_1번/1번_로마서.jpeg",
+    title: "3월 정체성 선포 캘린더",
+    image: "/images/공지사진/공지_1번/공지1_1.jpeg",
     images: [
-      "/images/공지사진/공지사항_1번/1번_로마서.jpeg",
-      "/images/공지사진/공지사항_1번/2번_로마서.jpeg",
+      "/images/공지사진/공지_1번/공지1_1.jpeg",
+      "/images/공지사진/공지_1번/공지1_2.jpeg",
+      "/images/공지사진/공지_1번/공지1_3.jpeg",
     ],
-    description: "📖기적을 이루는 1월 성경통독🎀\n\n⏰돌아오는 주일, 로마서 성경통독 표를 나눠줍니다.\n\n- 5독, 10독, 20독, 30독 이상 챌린지에 함께 도전해요!💪",
-    color: "bg-amber-100",
-  },
-  {
-    title: "주일성수 승리!",
-    image: "/images/공지사진/공지사항_2번/공지사항2_1.jpeg",
-    images: [
-      "/images/공지사진/공지사항_2번/공지사항2_1.jpeg",
-      "/images/공지사진/공지사항_2번/공지사항2_2.jpeg",
-    ],
-    description: "샬롬(스타) 일어나 빛을 발하라!✨\n\n예수님의 부흥을 이뤄가는 주인공! 다니엘초등부 입니다✨✨",
+    description: "",
     color: "bg-amber-100",
   },
   {
     title: "다니엘 예배팀 모집",
-    image: "",
-    images: [],
-    description:
-      "다니엘초등부 예배팀을 모집합니다.\n\n조이플키즈, 조이플찬양, 기도용사, 예배섬김이 등\n예배를 함께 섬길 친구들을 기다립니다!",
+    image: "/images/공지사진/공지2/공지2_1.jpeg",
+    images: [
+      "/images/공지사진/공지2/공지2_1.jpeg",
+      "/images/공지사진/공지2/공지2_2.jpeg",
+    ],
+    description: "",
+    color: "bg-amber-100",
+  },
+  {
+    title: "다니엘 초등부 기도통장",
+    image: "/images/공지사진/공지3/공지3_1.jpeg",
+    images: [
+      "/images/공지사진/공지3/공지3_1.jpeg",
+      "/images/공지사진/공지3/공지3_2.jpeg",
+      "/images/공지사진/공지3/공지3_3.jpeg",
+    ],
+    description: "",
     color: "bg-amber-100",
   },
 ];

@@ -3,3 +3,58 @@
 [00:00:20.479] Browser WARN    Image with src "/images/공지사진/공지사항_1번/1번_로마서.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
 [00:00:20.642] Browser WARN    Image with src "/images/공지사진/공지사항_2번/공지사항2_1.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
 [00:00:22.082] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:07:49.282] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:49.733] Browser WARN    Image with src "/images/공지사진/공지_1번/공지1_1.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:07:49.733] Browser WARN    Image with src "/images/공지사진/공지2/공지2_1.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:07:49.733] Browser WARN    Image with src "/images/공지사진/공지_1번/공지1_1.jpeg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:07:49.880] Browser WARN    Image with src "/images/공지사진/공지3/공지3_1.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:07:53.392] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:53.831] Browser WARN    Image with src "/images/공지사진/공지_1번/공지1_1.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:07:53.831] Browser WARN    Image with src "/images/공지사진/공지_1번/공지1_1.jpeg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:07:54.042] Browser WARN    Image with src "/images/공지사진/공지2/공지2_1.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:07:54.371] Browser WARN    Image with src "/images/공지사진/공지3/공지3_1.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:07:56.705] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:07:56.705] Browser WARN    Image with src "/images/공지사진/공지사항_1번/1번_로마서.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:07:56.705] Browser WARN    Image with src "/images/공지사진/공지사항_2번/공지사항2_1.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:07:56.851] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/공지사진/공지사항_2번/공지사항2_1.jpeg" "received" null
+[00:07:56.851] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/공지사진/공지사항_1번/1번_로마서.jpeg" "received" null
+[00:07:56.864] Server  ERROR   Error: The requested resource isn't a valid image.
+[00:07:56.869] Server  ERROR   Error: The requested resource isn't a valid image.
+[00:08:07.952] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:08.098] Browser WARN    Image with src "/images/공지사진/공지_1번/공지1_1.jpeg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:08:08.098] Browser WARN    Image with src "/images/공지사진/공지_1번/공지1_1.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:08:08.098] Browser WARN    Image with src "/images/공지사진/공지2/공지2_1.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:08:08.098] Browser WARN    Image with src "/images/공지사진/공지3/공지3_1.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:09:07.630] Server  LOG     ✓ Compiled in 36ms
+[00:09:07.757] Browser WARN    Image with src "/images/공지사진/공지_1번/공지1_1.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:09:07.758] Browser WARN    Image with src "/images/공지사진/공지2/공지2_1.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:09:18.849] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:19.002] Browser WARN    Image with src "/images/공지사진/공지_1번/공지1_1.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:09:19.003] Browser WARN    Image with src "/images/공지사진/공지2/공지2_1.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:09:19.003] Browser WARN    Image with src "/images/공지사진/공지3/공지3_1.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:09:21.063] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:21.254] Browser WARN    Image with src "/images/공지사진/공지_1번/공지1_1.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:09:21.254] Browser WARN    Image with src "/images/공지사진/공지2/공지2_1.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:09:21.254] Browser WARN    Image with src "/images/공지사진/공지3/공지3_1.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:09:56.699] Browser WARN    Image with src "/images/공지사진/공지3/공지3_2.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:09:56.699] Browser WARN    Image with src "/images/공지사진/공지3/공지3_3.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:10:02.074] Browser WARN    Image with src "/images/공지사진/공지_1번/공지1_2.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:10:02.074] Browser WARN    Image with src "/images/공지사진/공지_1번/공지1_3.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:12:15.993] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:12:15.993] Browser WARN    Image with src "/images/선생님들/정지운전도사님_사진.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:12:15.993] Browser WARN    Image with src "/images/선생님들/한서영_사진.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:12:15.993] Browser WARN    Image with src "/images/선생님들/배꽃하얀_사진.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:12:15.993] Browser WARN    Image with src "/images/선생님들/김신미_사진.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:12:15.993] Browser WARN    Image with src "/images/선생님들/안하은_사진.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:12:15.993] Browser WARN    Image with src "/images/선생님들/이진석_사진.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:12:15.993] Browser WARN    Image with src "/images/선생님들/오승현_사진.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:12:15.993] Browser WARN    Image with src "/images/선생님들/권혜정_사진.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:12:15.993] Browser WARN    Image with src "/images/선생님들/박은주_사진.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:12:15.993] Browser WARN    Image with src "/images/선생님들/이시훈_사진.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:12:49.334] Browser WARN    Image with src "/images/예배팀/조이플찬양팀_사진.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:12:49.334] Browser WARN    Image with src "/images/예배팀/조이플키즈팀_사진.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:12:49.334] Browser WARN    Image with src "/images/예배팀/기도용사_사진.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:12:49.334] Browser WARN    Image with src "/images/예배팀/예배섬김이_사진.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
