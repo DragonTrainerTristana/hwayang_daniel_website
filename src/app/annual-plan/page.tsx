@@ -15,7 +15,7 @@ const months = [
     month: "3월",
     items: [
       "다니엘 예배팀 임명식",
-      "1기도통장운동",
+      "기도통장운동",
       "새학기 정체성 선포캘린더",
       "종려주일",
       "고난주간 & 고난주간 특새",
@@ -136,6 +136,12 @@ export default function AnnualPlanPage() {
               )}
             </div>
           ))}
+        </div>
+
+        <div className="mt-12 bg-white rounded-2xl p-6 border border-neutral-200 shadow-md text-sm text-neutral-700 leading-relaxed">
+          <p className="font-bold mb-2">화양교회 교회학교는</p>
+          <p>*1월 마지막 주 졸업예배</p>
+          <p>*2월 첫째 주 진급예배로 드립니다.</p>
         </div>
       </div>
     </div>

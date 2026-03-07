@@ -39,7 +39,7 @@ const months = [
         month: "3월",
         items: [
             "다니엘 예배팀 임명식",
-            "1기도통장운동",
+            "기도통장운동",
             "새학기 정체성 선포캘린더",
             "종려주일",
             "고난주간 & 고난주간 특새"
@@ -203,6 +203,37 @@ function AnnualPlanPage() {
                 }, void 0, false, {
                     fileName: "[project]/Hwayang_Church_Website/hwayang_daniel_website/src/app/annual-plan/page.tsx",
                     lineNumber: 115,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Hwayang_Church_Website$2f$hwayang_daniel_website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "mt-12 bg-white rounded-2xl p-6 border border-neutral-200 shadow-md text-sm text-neutral-700 leading-relaxed",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Hwayang_Church_Website$2f$hwayang_daniel_website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            className: "font-bold mb-2",
+                            children: "화양교회 교회학교는"
+                        }, void 0, false, {
+                            fileName: "[project]/Hwayang_Church_Website/hwayang_daniel_website/src/app/annual-plan/page.tsx",
+                            lineNumber: 142,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Hwayang_Church_Website$2f$hwayang_daniel_website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            children: "*1월 마지막 주 졸업예배"
+                        }, void 0, false, {
+                            fileName: "[project]/Hwayang_Church_Website/hwayang_daniel_website/src/app/annual-plan/page.tsx",
+                            lineNumber: 143,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Hwayang_Church_Website$2f$hwayang_daniel_website$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            children: "*2월 첫째 주 진급예배로 드립니다."
+                        }, void 0, false, {
+                            fileName: "[project]/Hwayang_Church_Website/hwayang_daniel_website/src/app/annual-plan/page.tsx",
+                            lineNumber: 144,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/Hwayang_Church_Website/hwayang_daniel_website/src/app/annual-plan/page.tsx",
+                    lineNumber: 141,
                     columnNumber: 9
                 }, this)
             ]

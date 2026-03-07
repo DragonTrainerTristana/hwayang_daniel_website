@@ -5,21 +5,21 @@ const worshipTeams = [
     name: "조이플 키즈팀",
     teachers: "지도교사: 권혜정, 안하은",
     description:
-      "하나님을 기쁘게 찬양하는 조이플 키즈팀이에요.\n주일 예배에 '율동'으로 예배를 섬겨요",
+      "주일에 '율동'으로 예배를 섬겨요",
     image: "/images/예배팀/조이플키즈팀_사진.png",
     icon: "",
   },
   {
     name: "조이플 찬양팀",
-    teachers: "지도교사: 권혜정, 안하은",
+    teachers: "지도교사: 한서영",
     description:
-      "하나님을 기쁘게 찬양하는 조이플 찬양팀이에요.\n주일 예배에 '찬양'으로 예배를 섬겨요",
+      "주일에 '찬양'으로 예배를 섬겨요",
     image: "/images/예배팀/조이플찬양팀_사진.png",
     icon: "",
   },
   {
     name: "기도용사",
-    teachers: "",
+    teachers: "지도교사: 배꽃하얀",
     description:
       "예배 전 중보기도로 예배를 준비해요.\n초등부의 가장 든든한 기도용사들이에요.",
     image: "/images/예배팀/기도용사_사진.png",
@@ -27,7 +27,7 @@ const worshipTeams = [
   },
   {
     name: "예배섬김이",
-    teachers: "",
+    teachers: "지도교사: 박은주",
     description:
       "예배를 위해 여러 가지 역할로 준비합니다.\n예배 반주, 예배방석 준비, 큐티 도장, 예배 시간 알림이 등",
     image: "/images/예배팀/예배섬김이_사진.jpeg",
