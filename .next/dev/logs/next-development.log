@@ -58,3 +58,7 @@ Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
 [00:12:49.334] Browser WARN    Image with src "/images/예배팀/조이플키즈팀_사진.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
 [00:12:49.334] Browser WARN    Image with src "/images/예배팀/기도용사_사진.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
 [00:12:49.334] Browser WARN    Image with src "/images/예배팀/예배섬김이_사진.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:15:12.213] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:12.408] Browser WARN    Image with src "/images/공지사진/공지_1번/공지1_1.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:15:12.408] Browser WARN    Image with src "/images/공지사진/공지2/공지2_1.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:15:12.408] Browser WARN    Image with src "/images/공지사진/공지3/공지3_1.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes

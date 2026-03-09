@@ -165,8 +165,9 @@ export default function AboutPage() {
 
               <div className="reveal reveal-delay-3 bg-gradient-to-br from-rose-50 to-rose-100/50 rounded-2xl p-8 border border-neutral-200 shadow-md">
                 <p className="text-sm text-neutral-500 italic leading-relaxed text-center">
-                  &ldquo;하나님이 다니엘에게 지식을 주시고<br />
-                  모든 학문과 지혜에 명철을 주셨으니&rdquo;
+                  &ldquo;하나님이 이 네 소년에게 학문을 주시고<br />
+                  모든 서적을 깨닫게 하시고 지혜를 주셨으니<br />
+                  다니엘은 또 모든 환상과 꿈을 깨달아 알더라&rdquo;
                 </p>
                 <p className="text-xs text-rose-400 text-center mt-3 font-semibold"
                    style={{ fontFamily: "var(--font-space)" }}>
