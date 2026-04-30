@@ -6,19 +6,19 @@ import { useState } from "react";
 const minister = {
   name: "정지운",
   role: "담당 전도사",
-  image: "/images/선생님들/정지운전도사님_사진.png",
+  image: "/images/선생님들/정지운_전도사님.jpeg",
 };
 
 const teachers = [
-  { name: "한서영", role: "1학년 희락반", icon: "☺️", image: "/images/선생님들/한서영_사진.png" },
-  { name: "김신미", role: "2학년 화평반", icon: "🕊️", image: "/images/선생님들/김신미_사진.jpeg" },
-  { name: "안하은", role: "2학년 자비반", icon: "💝", image: "/images/선생님들/안하은_사진.png" },
-  { name: "이진석", role: "3학년 온유반", icon: "🌸", image: "/images/선생님들/이진석_사진.jpeg" },
-  { name: "배꽃하얀", role: "4학년 사랑반", icon: "💕", image: "/images/선생님들/배꽃하얀_사진.jpeg" },
-  { name: "오승현", role: "5학년 절제반", icon: "💎", image: "/images/선생님들/오승현_사진.png" },
-  { name: "권혜정", role: "5학년 충성반", icon: "⭐", image: "/images/선생님들/권혜정_사진.png" },
-  { name: "박은주", role: "6학년 양선반", icon: "✨", image: "/images/선생님들/박은주_사진.png" },
-  { name: "이시훈", role: "6학년 양선반", icon: "✨", image: "/images/선생님들/이시훈_사진.jpeg" },
+  { name: "한서영", role: "1학년 희락반", icon: "☺️", image: "/images/선생님들/한서영_선생님.jpeg" },
+  { name: "김신미", role: "2학년 화평반", icon: "🕊️", image: "/images/선생님들/김신미_선생님.jpeg" },
+  { name: "안하은", role: "2학년 자비반", icon: "💝", image: "/images/선생님들/안하은_선생님.jpeg" },
+  { name: "이진석", role: "3학년 온유반", icon: "🌸", image: "/images/선생님들/이진석_선생님.jpeg" },
+  { name: "배꽃하얀", role: "4학년 사랑반", icon: "💕", image: "/images/선생님들/배꽃하얀_선생님.jpeg" },
+  { name: "오승현", role: "5학년 절제반", icon: "💎", image: "/images/선생님들/오승현_선생님.jpeg" },
+  { name: "권혜정", role: "5학년 충성반", icon: "⭐", image: "/images/선생님들/권혜정_선생님.jpeg" },
+  { name: "박은주", role: "6학년 양선반", icon: "✨", image: "/images/선생님들/박은주_선생님.jpeg" },
+  { name: "이시훈", role: "6학년 양선반", icon: "✨", image: "/images/선생님들/이시훈_선생님.jpeg" },
   { name: "박영실", role: "", icon: "", image: "" },
 ];
 

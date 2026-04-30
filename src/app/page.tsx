@@ -46,6 +46,51 @@ const notices = [
     description: "",
     color: "bg-amber-100",
   },
+  {
+    title: "제25차 고난주간 특별새벽기도회",
+    image: "/images/공지사진/공지4/KakaoTalk_Photo_2026-04-30-18-11-50.jpeg",
+    images: [
+      "/images/공지사진/공지4/KakaoTalk_Photo_2026-04-30-18-11-50.jpeg",
+    ],
+    description: "십자가를 지나 부활의 영광으로\n3.30(월) ~ 4.5(부활새벽) 오전 5:30\n6번 예배 특새완수",
+    color: "bg-amber-100",
+  },
+  {
+    title: "Happy Easter 부활주일",
+    image: "/images/공지사진/공지5/KakaoTalk_Photo_2026-04-30-18-11-52.jpeg",
+    images: [
+      "/images/공지사진/공지5/KakaoTalk_Photo_2026-04-30-18-11-52.jpeg",
+    ],
+    description: "할렐루야! 예수님이 부활하셨어요!\n일시: 4월 5일(주일) 오전 11:20\n2부순서: 부활란전도",
+    color: "bg-amber-100",
+  },
+  {
+    title: "어린이큰잔치",
+    image: "/images/공지사진/공지6/KakaoTalk_Photo_2026-04-30-18-11-54.jpeg",
+    images: [
+      "/images/공지사진/공지6/KakaoTalk_Photo_2026-04-30-18-11-54.jpeg",
+    ],
+    description: "일시: 4.18(토) 10:00 ~ 17:00\n장소: 갈보리교회",
+    color: "bg-amber-100",
+  },
+  {
+    title: "어린이주일 천국잔치",
+    image: "/images/공지사진/공지7/KakaoTalk_Photo_2026-04-30-18-11-57.jpeg",
+    images: [
+      "/images/공지사진/공지7/KakaoTalk_Photo_2026-04-30-18-11-57.jpeg",
+    ],
+    description: "예수님이 VIP로 초대하신 천국잔치!\n5.3(주일) 오전 11:20\n천국의 예배 - 기쁨의 찬양, 특별한 말씀\n달란트 잔치 - 떡볶이, 콜팝, 마초바, 뻥스크림 등 맛있는 음식\n새친구를 전도하면 전도달란트가 있어요!",
+    color: "bg-amber-100",
+  },
+  {
+    title: "예수님과 한달살기",
+    image: "/images/공지사진/공지8/KakaoTalk_Photo_2026-04-30-18-11-59.jpeg",
+    images: [
+      "/images/공지사진/공지8/KakaoTalk_Photo_2026-04-30-18-11-59.jpeg",
+    ],
+    description: "예수님과 함께하는 30 DAYS\n기간: 5월 1일 ~ 5월 30일",
+    color: "bg-amber-100",
+  },
 ];
 
 type Notice = typeof notices[0];
