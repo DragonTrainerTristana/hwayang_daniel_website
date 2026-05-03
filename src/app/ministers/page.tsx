@@ -3,6 +3,11 @@
 import Image from "next/image";
 import { useState } from "react";
 
+const seniorPastor = {
+  name: "",
+  image: "/images/선생님들/담임목사님.jpeg",
+};
+
 const minister = {
   name: "정지운",
   role: "담당 전도사",
@@ -19,7 +24,7 @@ const teachers = [
   { name: "권혜정", role: "5학년 충성반", icon: "⭐", image: "/images/선생님들/권혜정_선생님.jpeg" },
   { name: "박은주", role: "6학년 양선반", icon: "✨", image: "/images/선생님들/박은주_선생님.jpeg" },
   { name: "이시훈", role: "6학년 양선반", icon: "✨", image: "/images/선생님들/이시훈_선생님.jpeg" },
-  { name: "박영실", role: "", icon: "", image: "" },
+  { name: "박영실", role: "", icon: "", image: "/images/선생님들/박영실_선생님.jpeg" },
 ];
 
 function ProfileImage({ src, alt }: { src: string; alt: string }) {
@@ -49,6 +54,22 @@ export default function MinistersPage() {
           <h1 className="text-2xl font-bold text-gray-900">Ministers</h1>
           <p className="text-gray-500 text-sm mt-1">다니엘초등부 선생님 <span className="text-orange-300">✿</span></p>
         </div>
+
+        {/* 담임목사님 */}
+        <div className="mb-8">
+          <p className="text-sm text-gray-900 font-medium mb-3">담임목사님</p>
+          <div className="bg-white rounded-xl p-3 border-2 border-blue-200 w-fit">
+            <div className="w-40 h-40 rounded-lg overflow-hidden relative bg-gray-100 mb-2">
+              <ProfileImage src={seniorPastor.image} alt="담임목사님" />
+            </div>
+            <p className="font-bold text-gray-900 text-sm">
+              {seniorPastor.name ? `${seniorPastor.name} 담임목사님` : "담임목사님"}
+            </p>
+          </div>
+        </div>
+
+        {/* 구분선 */}
+        <div className="border-t border-gray-200 mb-8" />
 
         {/* 전도사님 */}
         <div className="mb-8">
